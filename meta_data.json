@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "technical"
+    },
+    "data_tracked": false,
+    "description": "Simple Conditional in WorkFlows",
+    "image": "//meta-q.cdn.bubble.io/f1710864073781x363361440955563200/mypins.png",
+    "license": "open_source",
+    "name": "Simple Conditional Action",
+    "sa_node_version": 18
+}

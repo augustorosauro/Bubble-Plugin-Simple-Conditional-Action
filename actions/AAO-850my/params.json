@@ -1,0 +1,52 @@
+{
+    "category": "plugins",
+    "display": "* Simple Conditional Action",
+    "fields": {
+        "AAP": {
+            "caption": "condition",
+            "default_val": false,
+            "doc": "Condition to analise true or false.",
+            "editor": "DynamicValue",
+            "name": "condition",
+            "rank": 0,
+            "value": "boolean"
+        },
+        "AAR": {
+            "caption": "Return yes",
+            "default_val": true,
+            "doc": "Return if true",
+            "editor": "DynamicValue",
+            "name": "yesReturn",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "Return no",
+            "default_val": false,
+            "doc": "Return if false",
+            "editor": "DynamicValue",
+            "name": "noReturn",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "Explanation Docs",
+            "default_val": "Doc Logic Here",
+            "doc": "Not used in processing.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "explain",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAQ": {
+            "caption": "result",
+            "name": "result",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}
